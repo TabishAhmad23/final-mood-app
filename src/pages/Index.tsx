@@ -30,12 +30,6 @@ const Index = () => {
         </div>
       </div>
 
-      <div className="mt-12">
-        <button className="bg-green-500 text-black px-6 py-3 rounded-full text-lg font-semibold hover:bg-green-600 transition-colors flex items-center">
-          Continue with Spotify
-        </button>
-      </div>
-
       <footer className="mt-12 text-gray-500">
         © 2025 Moodify. All rights reserved.
       </footer>
