@@ -4,6 +4,7 @@ import { Music, Image, Target } from 'lucide-react';
 import FaceDetection from '@/components/FaceDetection';
 import TextEmotionInput from '@/components/TextEmotionInput';
 import { Card } from '@/components/ui/card';
+import { Button } from '@/components/ui/button'; // Add this import
 
 const Index = () => {
   const [activeComponent, setActiveComponent] = useState<'camera' | 'text' | null>(null);
